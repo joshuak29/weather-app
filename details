@@ -1,0 +1,3 @@
+-store the current and forecast data in the store and update it on load
+
+-air conditions: feelslike, wind(km/h), uv(index)
