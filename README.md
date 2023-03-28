@@ -1,9 +1,9 @@
 Weather app
 You can tell from its funny and lazy name that its a weather app (duhh!!)
 
-I buit this to test my skills in design and api consuming and I thin I did a pretty good job.
+I built this to test my skills in design and api consuming and I think I did a pretty good job.
 
-Basically, Its a web app that show you the current and forecast weather conditions of a city.
+Basically, Its a web app that shows you the current and forecast weather conditions of a city.
 -You can search for over 100,000 cities.
 -See some basic conditions for the next 4 more days.
 -See the hourly forecast of the day(plan your day and confirm with the weather)
