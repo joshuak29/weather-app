@@ -1,35 +1,13 @@
-# weather app
+Weather app
+You can tell from its funny and lazy name that its a weather app (duhh!!)
 
-This template should help get you started developing with Vue 3 in Vite.
+I buit this to test my skills in design and api consuming and I thin I did a pretty good job.
 
-## Recommended IDE Setup
+Basically, Its a web app that show you the current and forecast weather conditions of a city.
+-You can search for over 100,000 cities.
+-See some basic conditions for the next 4 more days.
+-See the hourly forecast of the day(plan your day and confirm with the weather)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+I will continue to add more usability and responsiveness, but for now it only supports the desktop view
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+![image](https://user-images.githubusercontent.com/106469214/228100713-ec5db50f-ef3c-4ceb-8f35-eeb6e96841a8.png)
