@@ -22,7 +22,7 @@ export const fetchWeatherData = async (city) => {
 	let url = import.meta.env.VITE_BASE_URL
 	try {
 
-		let results = await axios.get(url + '/forecast.json?key=' + import.meta.env.VITE_API_KEY + '&q=' + city + '&days=3&aqi=no&alerts=no')
+		let results = await axios.get(url + '/forecast.json?key=' + import.meta.env.VITE_API_KEY + '&q=' + city + '&days=5&aqi=no&alerts=no')
 
 		weatherStore.location = results.data.location
 		weatherStore.current = results.data.current

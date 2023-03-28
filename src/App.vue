@@ -30,7 +30,7 @@ onMounted(() => {
 
 <template>
   <!-- container -->
-  <div class="h-full bg-gray-900 flex flex-row p-2 min-h-[580px]">
+  <div class="h-screen min-h-fit bg-gray-900 flex flex-row p-2 min-h-[580px]">
 
     <!-- left-side navbar -->
     <aside class="bg-gray-700 h-full w-14 flex flex-col gap-8 m-2 mt-0 rounded-xl hidden">
@@ -85,7 +85,9 @@ onMounted(() => {
           <i class="fa-solid fa-wind text-2xl"></i>wind
           <i class="fa-solid fa-sun text-2xl"></i>UV
           <i class="fa-solid fa-droplet text-2xl"></i>chance of rain -->
-          <condition v-for="i in 4" :key="i"/>
+          <condition :value="weatherStore.current.feelslike_c.toString() + '&deg'" name="Real Feel" icon="temp"/>
+          <condition :value="weatherStore.current.uv.toString()" name="UV Index" icon="uv"/>
+          <condition :value="weatherStore.current.wind_kph + 'km/h'" name="Wind" icon="wind"/>
         </div>
       </div>
       
